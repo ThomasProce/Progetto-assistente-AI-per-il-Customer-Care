@@ -1,0 +1,161 @@
+{
+  "n_conversations": 23,
+  "overall": {
+    "ragas_faithfulness": {
+      "mean": 0.487,
+      "n": 15
+    },
+    "ragas_answer_relevancy": {
+      "mean": 0.586,
+      "n": 21
+    },
+    "ragas_context_recall": {
+      "mean": 0.545,
+      "n": 11
+    },
+    "deepeval_correctness": {
+      "mean": 0.786,
+      "n": 23
+    },
+    "deepeval_tool_correctness": {
+      "mean": 0.841,
+      "n": 23
+    },
+    "needs_human_correct": {
+      "mean": 0.957,
+      "n": 23
+    },
+    "source_hit": {
+      "mean": 0.692,
+      "n": 13
+    },
+    "retrieval_hit": {
+      "mean": 0.769,
+      "n": 13
+    },
+    "sources_grounded": {
+      "mean": 1.0,
+      "n": 23
+    },
+    "schema_valid": {
+      "mean": 1.0,
+      "n": 23
+    }
+  },
+  "per_category": {
+    "cultivation_guide": {
+      "ragas_faithfulness": 0.583,
+      "ragas_answer_relevancy": 0.711,
+      "ragas_context_recall": 0.667,
+      "deepeval_correctness": 0.835,
+      "deepeval_tool_correctness": 0.667,
+      "needs_human_correct": 1.0,
+      "source_hit": 1.0,
+      "retrieval_hit": 1.0,
+      "sources_grounded": 1.0,
+      "schema_valid": 1.0
+    },
+    "edge_case": {
+      "ragas_faithfulness": 0.333,
+      "ragas_answer_relevancy": 0.435,
+      "ragas_context_recall": null,
+      "deepeval_correctness": 0.889,
+      "deepeval_tool_correctness": 1.0,
+      "needs_human_correct": 1.0,
+      "source_hit": null,
+      "retrieval_hit": null,
+      "sources_grounded": 1.0,
+      "schema_valid": 1.0
+    },
+    "escalation": {
+      "ragas_faithfulness": 0.157,
+      "ragas_answer_relevancy": 0.597,
+      "ragas_context_recall": 0.556,
+      "deepeval_correctness": 0.759,
+      "deepeval_tool_correctness": 0.889,
+      "needs_human_correct": 1.0,
+      "source_hit": 0.5,
+      "retrieval_hit": 0.75,
+      "sources_grounded": 1.0,
+      "schema_valid": 1.0
+    },
+    "multi_tool": {
+      "ragas_faithfulness": 1.0,
+      "ragas_answer_relevancy": 0.52,
+      "ragas_context_recall": 1.0,
+      "deepeval_correctness": 0.898,
+      "deepeval_tool_correctness": 1.0,
+      "needs_human_correct": 1.0,
+      "source_hit": 1.0,
+      "retrieval_hit": 1.0,
+      "sources_grounded": 1.0,
+      "schema_valid": 1.0
+    },
+    "multi_turn_memory": {
+      "ragas_faithfulness": null,
+      "ragas_answer_relevancy": 0.494,
+      "ragas_context_recall": null,
+      "deepeval_correctness": 0.735,
+      "deepeval_tool_correctness": 0.0,
+      "needs_human_correct": 1.0,
+      "source_hit": 0.0,
+      "retrieval_hit": 0.0,
+      "sources_grounded": 1.0,
+      "schema_valid": 1.0
+    },
+    "order_status": {
+      "ragas_faithfulness": 0.875,
+      "ragas_answer_relevancy": 0.693,
+      "ragas_context_recall": null,
+      "deepeval_correctness": 0.921,
+      "deepeval_tool_correctness": 1.0,
+      "needs_human_correct": 1.0,
+      "source_hit": null,
+      "retrieval_hit": null,
+      "sources_grounded": 1.0,
+      "schema_valid": 1.0
+    },
+    "out_of_scope": {
+      "ragas_faithfulness": null,
+      "ragas_answer_relevancy": null,
+      "ragas_context_recall": null,
+      "deepeval_correctness": 0.85,
+      "deepeval_tool_correctness": 1.0,
+      "needs_human_correct": 1.0,
+      "source_hit": null,
+      "retrieval_hit": null,
+      "sources_grounded": 1.0,
+      "schema_valid": 1.0
+    },
+    "policy": {
+      "ragas_faithfulness": 0.581,
+      "ragas_answer_relevancy": 0.504,
+      "ragas_context_recall": 0.444,
+      "deepeval_correctness": 0.607,
+      "deepeval_tool_correctness": 1.0,
+      "needs_human_correct": 1.0,
+      "source_hit": 1.0,
+      "retrieval_hit": 1.0,
+      "sources_grounded": 1.0,
+      "schema_valid": 1.0
+    },
+    "product_info": {
+      "ragas_faithfulness": 0.1,
+      "ragas_answer_relevancy": 0.875,
+      "ragas_context_recall": 0.0,
+      "deepeval_correctness": 0.629,
+      "deepeval_tool_correctness": 1.0,
+      "needs_human_correct": 0.0,
+      "source_hit": 0.0,
+      "retrieval_hit": 0.0,
+      "sources_grounded": 1.0,
+      "schema_valid": 1.0
+    }
+  },
+  "confidence_distribution": {
+    "high": 10,
+    "low": 8,
+    "medium": 5
+  },
+  "mean_latency_s": 6.84
+}

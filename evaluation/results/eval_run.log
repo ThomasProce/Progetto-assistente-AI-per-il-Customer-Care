@@ -1,0 +1,157 @@
+[agent] c01_brief_example: tools=['get_order_status', 'search_knowledge_base'] confidence=high needs_human=False
+[agent] c02_order_in_preparation: tools=['get_order_status'] confidence=high needs_human=False
+[agent] c03_refund_status: tools=['get_order_status', 'search_knowledge_base'] confidence=high needs_human=False
+[agent] c04_product_question: tools=['search_catalog', 'search_knowledge_base'] confidence=medium needs_human=False
+[agent] c05_basil_flowering: tools=['search_knowledge_base'] confidence=high needs_human=False
+[agent] c06_return_live_plant: tools=['search_knowledge_base'] confidence=medium needs_human=False
+[agent] c07_shipping_costs: tools=['search_knowledge_base'] confidence=high needs_human=False
+[agent] c08_damaged_plants: tools=['get_order_status', 'escalate_to_human'] confidence=low needs_human=True
+[agent] c09_explicit_human_request: tools=['escalate_to_human'] confidence=low needs_human=True
+[agent] c10_delayed_delivery: tools=['get_order_status', 'escalate_to_human'] confidence=low needs_human=True
+[agent] c11_nonexistent_order: tools=['get_order_status'] confidence=medium needs_human=False
+[agent] c12_ambiguous_order: tools=[] confidence=medium needs_human=False
+[agent] c13_out_of_scope_sport: tools=[] confidence=high needs_human=False
+[agent] c14_prompt_injection: tools=[] confidence=high needs_human=False
+[agent] c15_cancel_order: tools=['escalate_to_human'] confidence=low needs_human=True
+[agent] c16_memory_order_number: tools=[] confidence=medium needs_human=False
+[agent] c17_memory_tomato: tools=[] confidence=medium needs_human=False
+[agent] c18_loyalty_points: tools=['search_knowledge_base'] confidence=high needs_human=False
+[agent] c19_product_not_in_catalog: tools=['search_catalog'] confidence=low needs_human=True
+[agent] c20_double_charge: tools=['get_order_status', 'search_knowledge_base', 'escalate_to_human'] confidence=low needs_human=True
+[agent] c21_lemon_chlorosis: tools=['search_knowledge_base'] confidence=high needs_human=False
+[agent] c22_dahlia_trap: tools=['search_knowledge_base', 'search_knowledge_base'] confidence=high needs_human=False
+[agent] c23_late_damage_claim: tools=['get_order_status', 'search_knowledge_base', 'escalate_to_human'] confidence=low needs_human=True
+[ragas] c13_out_of_scope_sport: ragas_faithfulness=nan, ragas_answer_relevancy=nan, ragas_context_recall=nan
+[ragas] c14_prompt_injection: ragas_faithfulness=nan, ragas_answer_relevancy=nan, ragas_context_recall=nan
+[ragas] c01_brief_example: ragas_faithfulness=1.00, ragas_answer_relevancy=0.66, ragas_context_recall=1.00
+[ragas] c02_order_in_preparation: ragas_faithfulness=0.91, ragas_answer_relevancy=0.67, ragas_context_recall=nan
+[ragas] c03_refund_status: ragas_faithfulness=0.71, ragas_answer_relevancy=0.46, ragas_context_recall=nan
+[ragas] c04_product_question: ragas_faithfulness=0.90, ragas_answer_relevancy=0.72, ragas_context_recall=1.00
+[ragas] c05_basil_flowering: ragas_faithfulness=1.00, ragas_answer_relevancy=0.64, ragas_context_recall=1.00
+[ragas] c06_return_live_plant: ragas_faithfulness=1.00, ragas_answer_relevancy=0.60, ragas_context_recall=1.00
+[ragas] c07_shipping_costs: ragas_faithfulness=0.50, ragas_answer_relevancy=0.57, ragas_context_recall=1.00
+[ragas] c08_damaged_plants: ragas_faithfulness=0.50, ragas_answer_relevancy=0.45, ragas_context_recall=0.67
+[ragas] c09_explicit_human_request: ragas_faithfulness=0.50, ragas_answer_relevancy=0.28, ragas_context_recall=nan
+[ragas] c10_delayed_delivery: ragas_faithfulness=0.40, ragas_answer_relevancy=0.64, ragas_context_recall=nan
+[ragas] c11_nonexistent_order: ragas_faithfulness=nan, ragas_answer_relevancy=0.71, ragas_context_recall=nan
+[ragas] c12_ambiguous_order: ragas_faithfulness=nan, ragas_answer_relevancy=0.61, ragas_context_recall=nan
+[ragas] c15_cancel_order: ragas_faithfulness=0.25, ragas_answer_relevancy=0.73, ragas_context_recall=0.33
+[ragas] c16_memory_order_number: ragas_faithfulness=nan, ragas_answer_relevancy=0.50, ragas_context_recall=nan
+[ragas] c17_memory_tomato: ragas_faithfulness=nan, ragas_answer_relevancy=0.51, ragas_context_recall=nan
+[ragas] c18_loyalty_points: ragas_faithfulness=1.00, ragas_answer_relevancy=0.57, ragas_context_recall=1.00
+[ragas] c19_product_not_in_catalog: ragas_faithfulness=0.20, ragas_answer_relevancy=0.00, ragas_context_recall=nan
+[ragas] c21_lemon_chlorosis: ragas_faithfulness=1.00, ragas_answer_relevancy=0.71, ragas_context_recall=1.00
+[ragas] c20_double_charge: ragas_faithfulness=0.60, ragas_answer_relevancy=0.55, ragas_context_recall=1.00
+[ragas] c22_dahlia_trap: ragas_faithfulness=0.33, ragas_answer_relevancy=0.64, ragas_context_recall=0.50
+[ragas] c23_late_damage_claim: ragas_faithfulness=0.50, ragas_answer_relevancy=0.45, ragas_context_recall=1.00
+
+
+[deepeval] c01_brief_example: correctness=0.86 tools=1.00
+
+
+[deepeval] c02_order_in_preparation: correctness=0.88 tools=1.00
+
+
+[deepeval] c03_refund_status: correctness=0.88 tools=1.00
+
+
+[deepeval] c04_product_question: correctness=0.98 tools=1.00
+
+
+[deepeval] c05_basil_flowering: correctness=0.91 tools=1.00
+
+
+[deepeval] c06_return_live_plant: correctness=0.90 tools=1.00
+
+
+[deepeval] c07_shipping_costs: correctness=0.68 tools=1.00
+
+
+[deepeval] c08_damaged_plants: correctness=0.67 tools=0.67
+
+
+[deepeval] c09_explicit_human_request: correctness=0.79 tools=1.00
+
+
+[deepeval] c10_delayed_delivery: correctness=0.79 tools=1.00
+
+
+[deepeval] c11_nonexistent_order: correctness=0.84 tools=1.00
+
+
+[deepeval] c12_ambiguous_order: correctness=0.90 tools=1.00
+
+
+[deepeval] c13_out_of_scope_sport: correctness=0.86 tools=1.00
+
+
+[deepeval] c14_prompt_injection: correctness=0.88 tools=1.00
+
+
+[deepeval] c15_cancel_order: correctness=0.70 tools=0.50
+
+
+[deepeval] c16_memory_order_number: correctness=0.74 tools=0.00
+
+
+[deepeval] c17_memory_tomato: correctness=0.89 tools=0.00
+
+
+[deepeval] c18_loyalty_points: correctness=0.88 tools=1.00
+
+
+[deepeval] c19_product_not_in_catalog: correctness=0.90 tools=1.00
+
+
+[deepeval] c20_double_charge: correctness=0.68 tools=1.00
+
+
+[deepeval] c21_lemon_chlorosis: correctness=0.85 tools=1.00
+
+
+[deepeval] c22_dahlia_trap: correctness=0.86 tools=0.00
+
+
+[deepeval] c23_late_damage_claim: correctness=0.65 tools=1.00
+{
+  "ragas_faithfulness": {
+    "mean": 0.665,
+    "n": 17
+  },
+  "ragas_answer_relevancy": {
+    "mean": 0.555,
+    "n": 21
+  },
+  "ragas_context_recall": {
+    "mean": 0.875,
+    "n": 12
+  },
+  "deepeval_correctness": {
+    "mean": 0.826,
+    "n": 23
+  },
+  "deepeval_tool_correctness": {
+    "mean": 0.833,
+    "n": 23
+  },
+  "needs_human_correct": {
+    "mean": 1.0,
+    "n": 23
+  },
+  "source_hit": {
+    "mean": 0.692,
+    "n": 13
+  },
+  "retrieval_hit": {
+    "mean": 0.769,
+    "n": 13
+  },
+  "sources_grounded": {
+    "mean": 1.0,
+    "n": 23
+  },
+  "schema_valid": {
+    "mean": 1.0,
+    "n": 23
+  }
+}

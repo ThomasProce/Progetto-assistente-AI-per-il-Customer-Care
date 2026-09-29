@@ -8,7 +8,8 @@ policy) e riconosce quando passare la conversazione a un operatore umano.
   (`langchain-litellm`), quindi il provider si cambia con una variabile d'ambiente.
 - **4 tool**: `search_catalog` e `search_knowledge_base` (RAG su Chroma), `get_order_status`, `escalate_to_human`.
 - **Memoria a breve termine**: *summarization* (default) oppure *trimming*, con soglie configurabili.
-- **Memoria a lungo termine semantica**: knowledge base di 41 documenti indicizzata su Chroma.
+- **Memoria a lungo termine semantica**: knowledge base di 41 documenti su Chroma, con ricerca ibrida
+  (embedding + BM25, fusi con Reciprocal Rank Fusion) ed espansione al documento intero (small-to-big).
 - **Structured output** validato con Pydantic: `answer`, `confidence`, `sources`, `needs_human`.
   `confidence` e `needs_human` sono calcolati con regole deterministiche; `sources` contiene solo
   documenti realmente recuperati.
@@ -118,13 +119,13 @@ scritta nel codice. Le principali:
 
 | Variabile | Default | Significato |
 |---|---|---|
-| `GREENTHUMB_LLM_MODEL` | `openai/gpt-4o-mini` | modello dell'agente (sintassi LiteLLM `provider/modello`) |
-| `GREENTHUMB_EMBEDDING_MODEL` | `openai/text-embedding-3-small` | modello di embedding |
-| `GREENTHUMB_EVAL_MODEL` | `openai/gpt-4o-mini` | modello giudice di RAGAS e DeepEval |
+| `GREENTHUMB_LLM_MODEL` | `gpt-4o-mini-2024-07-18` | modello dell'agente (nome LiteLLM; per provider diversi da OpenAI `provider/modello`) |
+| `GREENTHUMB_EMBEDDING_MODEL` | `text-embedding-3-small` | modello di embedding |
+| `GREENTHUMB_EVAL_MODEL` | `gpt-4o-2024-11-20` | modello giudice di RAGAS e DeepEval |
 | `GREENTHUMB_CURRENT_DATE` | `2026-06-16` | "oggi" simulato, coerente con `orders.json` |
 | `GREENTHUMB_MEMORY_STRATEGY` | `summarization` | `summarization` oppure `trimming` |
 | `GREENTHUMB_MEMORY_MAX_TOKENS` | `1200` | soglia oltre cui la memoria viene compattata |
 | `GREENTHUMB_RETRIEVAL_TOP_K` | `4` | chunk restituiti per ricerca |
-| `GREENTHUMB_HIGH_CONFIDENCE_SCORE` | `0.50` | score minimo delle fonti per `confidence = high` |
+| `GREENTHUMB_HIGH_CONFIDENCE_SCORE` | `0.45` | score minimo delle fonti per `confidence = high` |
 
 I dati sono fittizi: `orders.json` si rigenera con `python scripts/generate_orders.py --reference-date AAAA-MM-GG`.

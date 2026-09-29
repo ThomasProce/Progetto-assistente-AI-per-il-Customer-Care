@@ -1,0 +1,1279 @@
+{
+  "reference_date": "2026-06-16",
+  "orders": [
+    {
+      "order_id": "1030",
+      "customer_name": "Giulia Ferri",
+      "customer_email": "giulia.ferri@example.com",
+      "created_at": "2026-05-07",
+      "status": "rimborsato",
+      "items": [
+        {
+          "sku": "GT-ATT-011",
+          "name": "Cesoie da potatura bypass Pro 21 cm",
+          "quantity": 1,
+          "unit_price_eur": 29.9,
+          "line_total_eur": 29.9
+        }
+      ],
+      "subtotal_eur": 29.9,
+      "shipping_cost_eur": 5.9,
+      "total_eur": 35.8,
+      "payment_method": "carta",
+      "shipping": {
+        "method": "standard",
+        "carrier": "BRT",
+        "tracking_number": "BRT008156570",
+        "city": "Torino",
+        "shipped_at": "2026-05-08",
+        "estimated_delivery": "2026-05-11",
+        "delivered_at": "2026-05-11"
+      },
+      "return": {
+        "requested_at": "2026-05-17",
+        "reason": "ripensamento",
+        "received_at": "2026-05-22"
+      },
+      "refund": {
+        "amount_eur": 28.9,
+        "issued_at": "2026-06-04",
+        "method": "carta",
+        "note": "Trattenuti 6,90 EUR di costo del reso per ripensamento."
+      },
+      "notes": null,
+      "history": [
+        {
+          "date": "2026-05-07",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        },
+        {
+          "date": "2026-05-08",
+          "status": "spedito",
+          "note": "Affidato al corriere BRT"
+        },
+        {
+          "date": "2026-05-11",
+          "status": "consegnato",
+          "note": "Consegna registrata"
+        },
+        {
+          "date": "2026-05-17",
+          "status": "reso_in_corso",
+          "note": "ripensamento"
+        },
+        {
+          "date": "2026-06-04",
+          "status": "rimborsato",
+          "note": "Rimborso di 28.90 EUR"
+        }
+      ]
+    },
+    {
+      "order_id": "1031",
+      "customer_name": "Marco Bellini",
+      "customer_email": "marco.bellini@example.com",
+      "created_at": "2026-05-14",
+      "status": "consegnato",
+      "items": [
+        {
+          "sku": "GT-SUB-050",
+          "name": "Terriccio universale biologico 50 L",
+          "quantity": 4,
+          "unit_price_eur": 11.9,
+          "line_total_eur": 47.6
+        },
+        {
+          "sku": "GT-CON-005",
+          "name": "Concime organico stallatico pellettato 5 kg",
+          "quantity": 1,
+          "unit_price_eur": 9.9,
+          "line_total_eur": 9.9
+        }
+      ],
+      "subtotal_eur": 57.5,
+      "shipping_cost_eur": 0.0,
+      "total_eur": 57.5,
+      "payment_method": "paypal",
+      "shipping": {
+        "method": "standard",
+        "carrier": "GLS",
+        "tracking_number": "GLS008164489",
+        "city": "Bergamo",
+        "shipped_at": "2026-05-15",
+        "estimated_delivery": "2026-05-18",
+        "delivered_at": "2026-05-18"
+      },
+      "return": null,
+      "refund": null,
+      "notes": null,
+      "history": [
+        {
+          "date": "2026-05-14",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        },
+        {
+          "date": "2026-05-15",
+          "status": "spedito",
+          "note": "Affidato al corriere GLS"
+        },
+        {
+          "date": "2026-05-18",
+          "status": "consegnato",
+          "note": "Consegna registrata"
+        }
+      ]
+    },
+    {
+      "order_id": "1032",
+      "customer_name": "Sara Colombo",
+      "customer_email": "sara.colombo@example.com",
+      "created_at": "2026-05-23",
+      "status": "consegnato",
+      "items": [
+        {
+          "sku": "GT-PIA-120",
+          "name": "Lavanda angustifolia 'Hidcote' vaso 14 cm",
+          "quantity": 6,
+          "unit_price_eur": 5.9,
+          "line_total_eur": 35.4
+        },
+        {
+          "sku": "GT-PIA-305",
+          "name": "Rosa rampicante 'New Dawn' in vaso 3 L",
+          "quantity": 1,
+          "unit_price_eur": 19.9,
+          "line_total_eur": 19.9
+        }
+      ],
+      "subtotal_eur": 55.3,
+      "shipping_cost_eur": 0.0,
+      "total_eur": 55.3,
+      "payment_method": "carta",
+      "shipping": {
+        "method": "standard",
+        "carrier": "BRT",
+        "tracking_number": "BRT008172408",
+        "city": "Monza",
+        "shipped_at": "2026-05-25",
+        "estimated_delivery": "2026-05-27",
+        "delivered_at": "2026-05-27"
+      },
+      "return": null,
+      "refund": null,
+      "notes": null,
+      "history": [
+        {
+          "date": "2026-05-23",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        },
+        {
+          "date": "2026-05-25",
+          "status": "spedito",
+          "note": "Affidato al corriere BRT"
+        },
+        {
+          "date": "2026-05-27",
+          "status": "consegnato",
+          "note": "Consegna registrata"
+        }
+      ]
+    },
+    {
+      "order_id": "1033",
+      "customer_name": "Luca Moretti",
+      "customer_email": "luca.moretti@example.com",
+      "created_at": "2026-05-31",
+      "status": "reso_in_corso",
+      "items": [
+        {
+          "sku": "GT-IRR-020",
+          "name": "Kit irrigazione a goccia per balcone con programmatore",
+          "quantity": 1,
+          "unit_price_eur": 34.9,
+          "line_total_eur": 34.9
+        }
+      ],
+      "subtotal_eur": 34.9,
+      "shipping_cost_eur": 5.9,
+      "total_eur": 40.8,
+      "payment_method": "carta",
+      "shipping": {
+        "method": "standard",
+        "carrier": "SDA",
+        "tracking_number": "SDA008180327",
+        "city": "Verona",
+        "shipped_at": "2026-06-01",
+        "estimated_delivery": "2026-06-04",
+        "delivered_at": "2026-06-04"
+      },
+      "return": {
+        "requested_at": "2026-06-13",
+        "reason": "prodotto difettoso: il programmatore non si accende",
+        "received_at": null
+      },
+      "refund": null,
+      "notes": "Reso gratuito per difetto. In attesa di ritiro da parte del corriere.",
+      "history": [
+        {
+          "date": "2026-05-31",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        },
+        {
+          "date": "2026-06-01",
+          "status": "spedito",
+          "note": "Affidato al corriere SDA"
+        },
+        {
+          "date": "2026-06-04",
+          "status": "consegnato",
+          "note": "Consegna registrata"
+        },
+        {
+          "date": "2026-06-13",
+          "status": "reso_in_corso",
+          "note": "prodotto difettoso: il programmatore non si accende"
+        }
+      ]
+    },
+    {
+      "order_id": "1034",
+      "customer_name": "Chiara Galli",
+      "customer_email": "chiara.galli@example.com",
+      "created_at": "2026-06-08",
+      "status": "annullato",
+      "items": [
+        {
+          "sku": "GT-PIA-410",
+          "name": "Limone 'Quattro Stagioni' in vaso 20 cm",
+          "quantity": 1,
+          "unit_price_eur": 39.9,
+          "line_total_eur": 39.9
+        }
+      ],
+      "subtotal_eur": 39.9,
+      "shipping_cost_eur": 5.9,
+      "total_eur": 45.8,
+      "payment_method": "carta",
+      "shipping": {
+        "method": "standard",
+        "carrier": null,
+        "tracking_number": null,
+        "city": "Parma",
+        "shipped_at": null,
+        "estimated_delivery": null,
+        "delivered_at": null
+      },
+      "return": null,
+      "refund": null,
+      "notes": "Annullato su richiesta del cliente prima della spedizione. Pre-autorizzazione rilasciata.",
+      "history": [
+        {
+          "date": "2026-06-08",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        },
+        {
+          "date": "2026-06-09",
+          "status": "annullato",
+          "note": "Annullato su richiesta del cliente prima della spedizione. Pre-autorizzazione rilasciata."
+        }
+      ]
+    },
+    {
+      "order_id": "1035",
+      "customer_name": "Andrea Riva",
+      "customer_email": "andrea.riva@example.com",
+      "created_at": "2026-06-12",
+      "status": "spedito",
+      "items": [
+        {
+          "sku": "GT-SER-004",
+          "name": "Serra da balcone a 4 ripiani",
+          "quantity": 1,
+          "unit_price_eur": 44.9,
+          "line_total_eur": 44.9
+        },
+        {
+          "sku": "GT-SEM-021",
+          "name": "Semi di basilico Genovese",
+          "quantity": 2,
+          "unit_price_eur": 2.2,
+          "line_total_eur": 4.4
+        }
+      ],
+      "subtotal_eur": 49.3,
+      "shipping_cost_eur": 0.0,
+      "total_eur": 49.3,
+      "payment_method": "klarna",
+      "shipping": {
+        "method": "standard",
+        "carrier": "GLS",
+        "tracking_number": "GLS008196165",
+        "city": "Genova",
+        "shipped_at": "2026-06-14",
+        "estimated_delivery": "2026-06-18",
+        "delivered_at": null
+      },
+      "return": null,
+      "refund": null,
+      "notes": null,
+      "history": [
+        {
+          "date": "2026-06-12",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        },
+        {
+          "date": "2026-06-14",
+          "status": "spedito",
+          "note": "Affidato al corriere GLS"
+        }
+      ]
+    },
+    {
+      "order_id": "1036",
+      "customer_name": "Elena Rossi",
+      "customer_email": "elena.rossi@example.com",
+      "created_at": "2026-06-15",
+      "status": "in_preparazione",
+      "items": [
+        {
+          "sku": "GT-PIA-220",
+          "name": "Piantine di fragola rifiorente 'Mara des Bois' (set da 6)",
+          "quantity": 1,
+          "unit_price_eur": 12.9,
+          "line_total_eur": 12.9
+        },
+        {
+          "sku": "GT-SUB-050",
+          "name": "Terriccio universale biologico 50 L",
+          "quantity": 1,
+          "unit_price_eur": 11.9,
+          "line_total_eur": 11.9
+        }
+      ],
+      "subtotal_eur": 24.8,
+      "shipping_cost_eur": 5.9,
+      "total_eur": 30.7,
+      "payment_method": "paypal",
+      "shipping": {
+        "method": "standard",
+        "carrier": null,
+        "tracking_number": null,
+        "city": "Bologna",
+        "shipped_at": null,
+        "estimated_delivery": "2026-06-19",
+        "delivered_at": null
+      },
+      "return": null,
+      "refund": null,
+      "notes": "Contiene piante vive: partenza prevista mercoledì (piante spedite solo lun-mer).",
+      "history": [
+        {
+          "date": "2026-06-15",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        }
+      ]
+    },
+    {
+      "order_id": "1037",
+      "customer_name": "Davide Conti",
+      "customer_email": "davide.conti@example.com",
+      "created_at": "2026-04-15",
+      "status": "consegnato",
+      "items": [
+        {
+          "sku": "GT-SEM-010",
+          "name": "Semi di pomodoro Cuore di Bue",
+          "quantity": 3,
+          "unit_price_eur": 2.8,
+          "line_total_eur": 8.4
+        },
+        {
+          "sku": "GT-SEM-021",
+          "name": "Semi di basilico Genovese",
+          "quantity": 2,
+          "unit_price_eur": 2.2,
+          "line_total_eur": 4.4
+        }
+      ],
+      "subtotal_eur": 12.8,
+      "shipping_cost_eur": 3.9,
+      "total_eur": 16.7,
+      "payment_method": "carta",
+      "shipping": {
+        "method": "punto_ritiro",
+        "carrier": "SDA",
+        "tracking_number": "SDA008212003",
+        "city": "Firenze",
+        "shipped_at": "2026-04-16",
+        "estimated_delivery": "2026-04-19",
+        "delivered_at": "2026-04-19"
+      },
+      "return": null,
+      "refund": null,
+      "notes": null,
+      "history": [
+        {
+          "date": "2026-04-15",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        },
+        {
+          "date": "2026-04-16",
+          "status": "spedito",
+          "note": "Affidato al corriere SDA"
+        },
+        {
+          "date": "2026-04-19",
+          "status": "consegnato",
+          "note": "Consegna registrata"
+        }
+      ]
+    },
+    {
+      "order_id": "1038",
+      "customer_name": "Francesca Marino",
+      "customer_email": "francesca.marino@example.com",
+      "created_at": "2026-06-05",
+      "status": "spedito",
+      "items": [
+        {
+          "sku": "GT-VAS-040",
+          "name": "Vaso autoirrigante 40 cm",
+          "quantity": 2,
+          "unit_price_eur": 24.9,
+          "line_total_eur": 49.8
+        },
+        {
+          "sku": "GT-SUB-050",
+          "name": "Terriccio universale biologico 50 L",
+          "quantity": 2,
+          "unit_price_eur": 11.9,
+          "line_total_eur": 23.8
+        }
+      ],
+      "subtotal_eur": 73.6,
+      "shipping_cost_eur": 0.0,
+      "total_eur": 73.6,
+      "payment_method": "carta",
+      "shipping": {
+        "method": "standard",
+        "carrier": "BRT",
+        "tracking_number": "BRT008219922",
+        "city": "Napoli",
+        "shipped_at": "2026-06-07",
+        "estimated_delivery": "2026-06-12",
+        "delivered_at": null
+      },
+      "return": null,
+      "refund": null,
+      "notes": "Tracking fermo all'hub di Bologna dal giorno successivo alla spedizione. Consegna in ritardo rispetto alla stima.",
+      "history": [
+        {
+          "date": "2026-06-05",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        },
+        {
+          "date": "2026-06-07",
+          "status": "spedito",
+          "note": "Affidato al corriere BRT"
+        }
+      ]
+    },
+    {
+      "order_id": "1039",
+      "customer_name": "Paolo Greco",
+      "customer_email": "paolo.greco@example.com",
+      "created_at": "2026-05-26",
+      "status": "rimborsato",
+      "items": [
+        {
+          "sku": "GT-PIA-305",
+          "name": "Rosa rampicante 'New Dawn' in vaso 3 L",
+          "quantity": 2,
+          "unit_price_eur": 19.9,
+          "line_total_eur": 39.8
+        }
+      ],
+      "subtotal_eur": 39.8,
+      "shipping_cost_eur": 9.9,
+      "total_eur": 49.7,
+      "payment_method": "paypal",
+      "shipping": {
+        "method": "express",
+        "carrier": "BRT",
+        "tracking_number": "BRT008227841",
+        "city": "Bari",
+        "shipped_at": "2026-05-27",
+        "estimated_delivery": "2026-05-28",
+        "delivered_at": "2026-05-28"
+      },
+      "return": {
+        "requested_at": "2026-05-28",
+        "reason": "garanzia Arrivo Perfetto: rami spezzati e vaso rotto (foto inviate)",
+        "received_at": null
+      },
+      "refund": {
+        "amount_eur": 49.7,
+        "issued_at": "2026-05-30",
+        "method": "paypal",
+        "note": "Rimborso integrale su richiesta del cliente, pianta non da restituire."
+      },
+      "notes": null,
+      "history": [
+        {
+          "date": "2026-05-26",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        },
+        {
+          "date": "2026-05-27",
+          "status": "spedito",
+          "note": "Affidato al corriere BRT"
+        },
+        {
+          "date": "2026-05-28",
+          "status": "consegnato",
+          "note": "Consegna registrata"
+        },
+        {
+          "date": "2026-05-28",
+          "status": "reso_in_corso",
+          "note": "garanzia Arrivo Perfetto: rami spezzati e vaso rotto (foto inviate)"
+        },
+        {
+          "date": "2026-05-30",
+          "status": "rimborsato",
+          "note": "Rimborso di 49.70 EUR"
+        }
+      ]
+    },
+    {
+      "order_id": "1040",
+      "customer_name": "Martina Fontana",
+      "customer_email": "martina.fontana@example.com",
+      "created_at": "2026-06-10",
+      "status": "consegnato",
+      "items": [
+        {
+          "sku": "GT-BLB-101",
+          "name": "Bulbi di tulipano Darwin Mix (20 bulbi)",
+          "quantity": 1,
+          "unit_price_eur": 12.9,
+          "line_total_eur": 12.9
+        },
+        {
+          "sku": "GT-BLB-102",
+          "name": "Bulbi di narciso 'Carlton' (15 bulbi)",
+          "quantity": 1,
+          "unit_price_eur": 9.5,
+          "line_total_eur": 9.5
+        }
+      ],
+      "subtotal_eur": 22.4,
+      "shipping_cost_eur": 5.9,
+      "total_eur": 28.3,
+      "payment_method": "carta",
+      "shipping": {
+        "method": "standard",
+        "carrier": "GLS",
+        "tracking_number": "GLS008235760",
+        "city": "Padova",
+        "shipped_at": "2026-06-11",
+        "estimated_delivery": "2026-06-14",
+        "delivered_at": "2026-06-14"
+      },
+      "return": null,
+      "refund": null,
+      "notes": null,
+      "history": [
+        {
+          "date": "2026-06-10",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        },
+        {
+          "date": "2026-06-11",
+          "status": "spedito",
+          "note": "Affidato al corriere GLS"
+        },
+        {
+          "date": "2026-06-14",
+          "status": "consegnato",
+          "note": "Consegna registrata"
+        }
+      ]
+    },
+    {
+      "order_id": "1041",
+      "customer_name": "Simone Barbieri",
+      "customer_email": "simone.barbieri@example.com",
+      "created_at": "2026-06-14",
+      "status": "in_preparazione",
+      "items": [
+        {
+          "sku": "GT-CON-005",
+          "name": "Concime organico stallatico pellettato 5 kg",
+          "quantity": 2,
+          "unit_price_eur": 9.9,
+          "line_total_eur": 19.8
+        },
+        {
+          "sku": "GT-ATT-011",
+          "name": "Cesoie da potatura bypass Pro 21 cm",
+          "quantity": 1,
+          "unit_price_eur": 29.9,
+          "line_total_eur": 29.9
+        }
+      ],
+      "subtotal_eur": 49.7,
+      "shipping_cost_eur": 0.0,
+      "total_eur": 49.7,
+      "payment_method": "bonifico",
+      "shipping": {
+        "method": "standard",
+        "carrier": null,
+        "tracking_number": null,
+        "city": "Trento",
+        "shipped_at": null,
+        "estimated_delivery": null,
+        "delivered_at": null
+      },
+      "return": null,
+      "refund": null,
+      "notes": "In attesa dell'accredito del bonifico. Senza pagamento entro 7 giorni dall'ordine l'ordine viene annullato.",
+      "history": [
+        {
+          "date": "2026-06-14",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        }
+      ]
+    },
+    {
+      "order_id": "1042",
+      "customer_name": "Laura Esposito",
+      "customer_email": "laura.esposito@example.com",
+      "created_at": "2026-06-13",
+      "status": "spedito",
+      "items": [
+        {
+          "sku": "GT-BLB-101",
+          "name": "Bulbi di tulipano Darwin Mix (20 bulbi)",
+          "quantity": 2,
+          "unit_price_eur": 12.9,
+          "line_total_eur": 25.8
+        },
+        {
+          "sku": "GT-BLB-102",
+          "name": "Bulbi di narciso 'Carlton' (15 bulbi)",
+          "quantity": 1,
+          "unit_price_eur": 9.5,
+          "line_total_eur": 9.5
+        }
+      ],
+      "subtotal_eur": 35.3,
+      "shipping_cost_eur": 5.9,
+      "total_eur": 41.2,
+      "payment_method": "carta",
+      "shipping": {
+        "method": "standard",
+        "carrier": "BRT",
+        "tracking_number": "BRT008251598",
+        "city": "Milano",
+        "shipped_at": "2026-06-15",
+        "estimated_delivery": "2026-06-17",
+        "delivered_at": null
+      },
+      "return": null,
+      "refund": null,
+      "notes": null,
+      "history": [
+        {
+          "date": "2026-06-13",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        },
+        {
+          "date": "2026-06-15",
+          "status": "spedito",
+          "note": "Affidato al corriere BRT"
+        }
+      ]
+    },
+    {
+      "order_id": "1043",
+      "customer_name": "Roberto Villa",
+      "customer_email": "roberto.villa@example.com",
+      "created_at": "2026-06-16",
+      "status": "in_preparazione",
+      "items": [
+        {
+          "sku": "GT-BLB-201",
+          "name": "Tuberi di dalia decorativa 'Café au Lait' (3 tuberi)",
+          "quantity": 2,
+          "unit_price_eur": 8.9,
+          "line_total_eur": 17.8
+        },
+        {
+          "sku": "GT-CON-005",
+          "name": "Concime organico stallatico pellettato 5 kg",
+          "quantity": 1,
+          "unit_price_eur": 9.9,
+          "line_total_eur": 9.9
+        }
+      ],
+      "subtotal_eur": 27.7,
+      "shipping_cost_eur": 5.9,
+      "total_eur": 33.6,
+      "payment_method": "applepay",
+      "shipping": {
+        "method": "standard",
+        "carrier": null,
+        "tracking_number": null,
+        "city": "Brescia",
+        "shipped_at": null,
+        "estimated_delivery": "2026-06-20",
+        "delivered_at": null
+      },
+      "return": null,
+      "refund": null,
+      "notes": null,
+      "history": [
+        {
+          "date": "2026-06-16",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        }
+      ]
+    },
+    {
+      "order_id": "1044",
+      "customer_name": "Alessia Ricci",
+      "customer_email": "alessia.ricci@example.com",
+      "created_at": "2026-06-07",
+      "status": "consegnato",
+      "items": [
+        {
+          "sku": "GT-VAS-040",
+          "name": "Vaso autoirrigante 40 cm",
+          "quantity": 2,
+          "unit_price_eur": 24.9,
+          "line_total_eur": 49.8
+        }
+      ],
+      "subtotal_eur": 49.8,
+      "shipping_cost_eur": 0.0,
+      "total_eur": 49.8,
+      "payment_method": "carta",
+      "shipping": {
+        "method": "standard",
+        "carrier": "SDA",
+        "tracking_number": "SDA008267436",
+        "city": "Roma",
+        "shipped_at": "2026-06-08",
+        "estimated_delivery": "2026-06-11",
+        "delivered_at": "2026-06-11"
+      },
+      "return": null,
+      "refund": null,
+      "notes": null,
+      "history": [
+        {
+          "date": "2026-06-07",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        },
+        {
+          "date": "2026-06-08",
+          "status": "spedito",
+          "note": "Affidato al corriere SDA"
+        },
+        {
+          "date": "2026-06-11",
+          "status": "consegnato",
+          "note": "Consegna registrata"
+        }
+      ]
+    },
+    {
+      "order_id": "1045",
+      "customer_name": "Giorgio Lombardi",
+      "customer_email": "giorgio.lombardi@example.com",
+      "created_at": "2026-06-15",
+      "status": "spedito",
+      "items": [
+        {
+          "sku": "GT-SEM-021",
+          "name": "Semi di basilico Genovese",
+          "quantity": 1,
+          "unit_price_eur": 2.2,
+          "line_total_eur": 2.2
+        },
+        {
+          "sku": "GT-DIF-030",
+          "name": "Olio di neem corroborante naturale 250 ml",
+          "quantity": 1,
+          "unit_price_eur": 12.5,
+          "line_total_eur": 12.5
+        }
+      ],
+      "subtotal_eur": 14.7,
+      "shipping_cost_eur": 9.9,
+      "total_eur": 24.6,
+      "payment_method": "paypal",
+      "shipping": {
+        "method": "express",
+        "carrier": "GLS",
+        "tracking_number": "GLS008275355",
+        "city": "Modena",
+        "shipped_at": "2026-06-16",
+        "estimated_delivery": "2026-06-17",
+        "delivered_at": null
+      },
+      "return": null,
+      "refund": null,
+      "notes": null,
+      "history": [
+        {
+          "date": "2026-06-15",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        },
+        {
+          "date": "2026-06-16",
+          "status": "spedito",
+          "note": "Affidato al corriere GLS"
+        }
+      ]
+    },
+    {
+      "order_id": "1046",
+      "customer_name": "Valentina Serra",
+      "customer_email": "valentina.serra@example.com",
+      "created_at": "2026-05-29",
+      "status": "reso_in_corso",
+      "items": [
+        {
+          "sku": "GT-VAS-040",
+          "name": "Vaso autoirrigante 40 cm",
+          "quantity": 1,
+          "unit_price_eur": 24.9,
+          "line_total_eur": 24.9
+        }
+      ],
+      "subtotal_eur": 24.9,
+      "shipping_cost_eur": 5.9,
+      "total_eur": 30.8,
+      "payment_method": "carta",
+      "shipping": {
+        "method": "standard",
+        "carrier": "SDA",
+        "tracking_number": "SDA008283274",
+        "city": "Cagliari",
+        "shipped_at": "2026-05-30",
+        "estimated_delivery": "2026-06-03",
+        "delivered_at": "2026-06-03"
+      },
+      "return": {
+        "requested_at": "2026-06-14",
+        "reason": "ripensamento: colore diverso da quello atteso",
+        "received_at": null
+      },
+      "refund": null,
+      "notes": "Etichetta di reso inviata. Ritiro previsto entro 3 giorni lavorativi.",
+      "history": [
+        {
+          "date": "2026-05-29",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        },
+        {
+          "date": "2026-05-30",
+          "status": "spedito",
+          "note": "Affidato al corriere SDA"
+        },
+        {
+          "date": "2026-06-03",
+          "status": "consegnato",
+          "note": "Consegna registrata"
+        },
+        {
+          "date": "2026-06-14",
+          "status": "reso_in_corso",
+          "note": "ripensamento: colore diverso da quello atteso"
+        }
+      ]
+    },
+    {
+      "order_id": "1047",
+      "customer_name": "Federico Costa",
+      "customer_email": "federico.costa@example.com",
+      "created_at": "2026-05-28",
+      "status": "consegnato",
+      "items": [
+        {
+          "sku": "GT-SEM-200",
+          "name": "Miscuglio per prato rustico calpestabile 1 kg",
+          "quantity": 3,
+          "unit_price_eur": 14.9,
+          "line_total_eur": 44.7
+        }
+      ],
+      "subtotal_eur": 44.7,
+      "shipping_cost_eur": 5.9,
+      "total_eur": 50.6,
+      "payment_method": "carta",
+      "shipping": {
+        "method": "standard",
+        "carrier": "GLS",
+        "tracking_number": "GLS008291193",
+        "city": "Udine",
+        "shipped_at": "2026-05-29",
+        "estimated_delivery": "2026-06-01",
+        "delivered_at": "2026-06-01"
+      },
+      "return": null,
+      "refund": null,
+      "notes": null,
+      "history": [
+        {
+          "date": "2026-05-28",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        },
+        {
+          "date": "2026-05-29",
+          "status": "spedito",
+          "note": "Affidato al corriere GLS"
+        },
+        {
+          "date": "2026-06-01",
+          "status": "consegnato",
+          "note": "Consegna registrata"
+        }
+      ]
+    },
+    {
+      "order_id": "1048",
+      "customer_name": "Ilaria Mancini",
+      "customer_email": "ilaria.mancini@example.com",
+      "created_at": "2026-06-14",
+      "status": "spedito",
+      "items": [
+        {
+          "sku": "GT-IRR-020",
+          "name": "Kit irrigazione a goccia per balcone con programmatore",
+          "quantity": 1,
+          "unit_price_eur": 34.9,
+          "line_total_eur": 34.9
+        },
+        {
+          "sku": "GT-VAS-040",
+          "name": "Vaso autoirrigante 40 cm",
+          "quantity": 1,
+          "unit_price_eur": 24.9,
+          "line_total_eur": 24.9
+        }
+      ],
+      "subtotal_eur": 59.8,
+      "shipping_cost_eur": 3.9,
+      "total_eur": 63.7,
+      "payment_method": "carta",
+      "shipping": {
+        "method": "punto_ritiro",
+        "carrier": "SDA",
+        "tracking_number": "SDA008299112",
+        "city": "Perugia",
+        "shipped_at": "2026-06-15",
+        "estimated_delivery": "2026-06-19",
+        "delivered_at": null
+      },
+      "return": null,
+      "refund": null,
+      "notes": null,
+      "history": [
+        {
+          "date": "2026-06-14",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        },
+        {
+          "date": "2026-06-15",
+          "status": "spedito",
+          "note": "Affidato al corriere SDA"
+        }
+      ]
+    },
+    {
+      "order_id": "1049",
+      "customer_name": "Stefano Leone",
+      "customer_email": "stefano.leone@example.com",
+      "created_at": "2026-06-04",
+      "status": "annullato",
+      "items": [
+        {
+          "sku": "GT-BLB-201",
+          "name": "Tuberi di dalia decorativa 'Café au Lait' (3 tuberi)",
+          "quantity": 3,
+          "unit_price_eur": 8.9,
+          "line_total_eur": 26.7
+        }
+      ],
+      "subtotal_eur": 26.7,
+      "shipping_cost_eur": 5.9,
+      "total_eur": 32.6,
+      "payment_method": "paypal",
+      "shipping": {
+        "method": "standard",
+        "carrier": null,
+        "tracking_number": null,
+        "city": "Palermo",
+        "shipped_at": null,
+        "estimated_delivery": null,
+        "delivered_at": null
+      },
+      "return": null,
+      "refund": null,
+      "notes": "Annullato da GreenThumb per esaurimento scorte. Rimborso integrale emesso su PayPal.",
+      "history": [
+        {
+          "date": "2026-06-04",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        },
+        {
+          "date": "2026-06-06",
+          "status": "annullato",
+          "note": "Annullato da GreenThumb per esaurimento scorte. Rimborso integrale emesso su PayPal."
+        }
+      ]
+    },
+    {
+      "order_id": "1050",
+      "customer_name": "Beatrice Gatti",
+      "customer_email": "beatrice.gatti@example.com",
+      "created_at": "2026-06-08",
+      "status": "consegnato",
+      "items": [
+        {
+          "sku": "GT-PIA-410",
+          "name": "Limone 'Quattro Stagioni' in vaso 20 cm",
+          "quantity": 1,
+          "unit_price_eur": 39.9,
+          "line_total_eur": 39.9
+        },
+        {
+          "sku": "GT-SUB-050",
+          "name": "Terriccio universale biologico 50 L",
+          "quantity": 1,
+          "unit_price_eur": 11.9,
+          "line_total_eur": 11.9
+        }
+      ],
+      "subtotal_eur": 51.8,
+      "shipping_cost_eur": 0.0,
+      "total_eur": 51.8,
+      "payment_method": "carta",
+      "shipping": {
+        "method": "standard",
+        "carrier": "BRT",
+        "tracking_number": "BRT008314950",
+        "city": "Lucca",
+        "shipped_at": "2026-06-09",
+        "estimated_delivery": "2026-06-12",
+        "delivered_at": "2026-06-12"
+      },
+      "return": null,
+      "refund": null,
+      "notes": null,
+      "history": [
+        {
+          "date": "2026-06-08",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        },
+        {
+          "date": "2026-06-09",
+          "status": "spedito",
+          "note": "Affidato al corriere BRT"
+        },
+        {
+          "date": "2026-06-12",
+          "status": "consegnato",
+          "note": "Consegna registrata"
+        }
+      ]
+    },
+    {
+      "order_id": "1051",
+      "customer_name": "Nicola Ferrara",
+      "customer_email": "nicola.ferrara@example.com",
+      "created_at": "2026-06-15",
+      "status": "in_preparazione",
+      "items": [
+        {
+          "sku": "GT-SUB-050",
+          "name": "Terriccio universale biologico 50 L",
+          "quantity": 6,
+          "unit_price_eur": 11.9,
+          "line_total_eur": 71.4
+        },
+        {
+          "sku": "GT-CON-005",
+          "name": "Concime organico stallatico pellettato 5 kg",
+          "quantity": 2,
+          "unit_price_eur": 9.9,
+          "line_total_eur": 19.8
+        }
+      ],
+      "subtotal_eur": 91.2,
+      "shipping_cost_eur": 0.0,
+      "total_eur": 91.2,
+      "payment_method": "carta",
+      "shipping": {
+        "method": "standard",
+        "carrier": null,
+        "tracking_number": null,
+        "city": "Ancona",
+        "shipped_at": null,
+        "estimated_delivery": "2026-06-21",
+        "delivered_at": null
+      },
+      "return": null,
+      "refund": null,
+      "notes": "Ordine voluminoso (oltre 100 kg): consegna su bancale al piano strada.",
+      "history": [
+        {
+          "date": "2026-06-15",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        }
+      ]
+    },
+    {
+      "order_id": "1052",
+      "customer_name": "Giada Pellegrini",
+      "customer_email": "giada.pellegrini@example.com",
+      "created_at": "2026-06-12",
+      "status": "consegnato",
+      "items": [
+        {
+          "sku": "GT-PIA-120",
+          "name": "Lavanda angustifolia 'Hidcote' vaso 14 cm",
+          "quantity": 3,
+          "unit_price_eur": 5.9,
+          "line_total_eur": 17.7
+        }
+      ],
+      "subtotal_eur": 17.7,
+      "shipping_cost_eur": 5.9,
+      "total_eur": 23.6,
+      "payment_method": "paypal",
+      "shipping": {
+        "method": "standard",
+        "carrier": "GLS",
+        "tracking_number": "GLS008330788",
+        "city": "Rimini",
+        "shipped_at": "2026-06-13",
+        "estimated_delivery": "2026-06-15",
+        "delivered_at": "2026-06-15"
+      },
+      "return": null,
+      "refund": null,
+      "notes": null,
+      "history": [
+        {
+          "date": "2026-06-12",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        },
+        {
+          "date": "2026-06-13",
+          "status": "spedito",
+          "note": "Affidato al corriere GLS"
+        },
+        {
+          "date": "2026-06-15",
+          "status": "consegnato",
+          "note": "Consegna registrata"
+        }
+      ]
+    },
+    {
+      "order_id": "1053",
+      "customer_name": "Tommaso Rinaldi",
+      "customer_email": "tommaso.rinaldi@example.com",
+      "created_at": "2026-04-07",
+      "status": "rimborsato",
+      "items": [
+        {
+          "sku": "GT-ATT-011",
+          "name": "Cesoie da potatura bypass Pro 21 cm",
+          "quantity": 1,
+          "unit_price_eur": 29.9,
+          "line_total_eur": 29.9
+        }
+      ],
+      "subtotal_eur": 29.9,
+      "shipping_cost_eur": 5.9,
+      "total_eur": 35.8,
+      "payment_method": "carta",
+      "shipping": {
+        "method": "standard",
+        "carrier": "BRT",
+        "tracking_number": "BRT008338707",
+        "city": "Treviso",
+        "shipped_at": "2026-04-08",
+        "estimated_delivery": "2026-04-11",
+        "delivered_at": "2026-04-11"
+      },
+      "return": {
+        "requested_at": "2026-05-17",
+        "reason": "garanzia: lama incrinata dopo un mese di utilizzo",
+        "received_at": "2026-05-23"
+      },
+      "refund": {
+        "amount_eur": 35.8,
+        "issued_at": "2026-06-02",
+        "method": "carta",
+        "note": "Prodotto non sostituibile (esaurito): rimborso integrale in garanzia."
+      },
+      "notes": null,
+      "history": [
+        {
+          "date": "2026-04-07",
+          "status": "in_preparazione",
+          "note": "Ordine confermato"
+        },
+        {
+          "date": "2026-04-08",
+          "status": "spedito",
+          "note": "Affidato al corriere BRT"
+        },
+        {
+          "date": "2026-04-11",
+          "status": "consegnato",
+          "note": "Consegna registrata"
+        },
+        {
+          "date": "2026-05-17",
+          "status": "reso_in_corso",
+          "note": "garanzia: lama incrinata dopo un mese di utilizzo"
+        },
+        {
+          "date": "2026-06-02",
+          "status": "rimborsato",
+          "note": "Rimborso di 35.80 EUR"
+        }
+      ]
+    }
+  ]
+}
